@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onDialogDismiss(int requestCode, int resultCode) {
-            Toast.makeText(getApplicationContext(), "I known!", Toast.LENGTH_LONG)
+            Toast.makeText(getApplicationContext(), "I knew it!", Toast.LENGTH_LONG)
                  .show();
         }
     };
